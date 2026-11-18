@@ -11,15 +11,17 @@ body {
 .avatar {
     width: 150px;
     height: 150px;
-    border:3px solid #A19872;
-    border-radius:4px;
-    transition:0.3sec;
+    border: 3px solid #A19872;
+    border-radius: 4px;
+    transition: 0.3sec;
 }
-.avatar:hover{
+
+.avatar:hover {
     box-shadow: 0 5px 15px gray;
     transform: scale(1.05);
     cursor: pointer;
 }
+
 .card {
     width: 400px;
     margin: 0 auto;
@@ -27,12 +29,12 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background: #7286a0;
+    background: grey;
     color: #2b2839;
     border-bottom: 6px solid #483D0B;
     box-shadow: 2px 2px 20px gray;
-    
-        
+
+
     /*
     Challenge:
     Find a color palette you like on Coolors.co
